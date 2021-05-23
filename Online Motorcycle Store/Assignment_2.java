@@ -76,21 +76,24 @@ public class Assignment_2 {
             }
             case 2 :
             {
-                System.out.println("The Color is " + S.getColor()+"\nThe Type is " + S.getType()+"\nThe Speed is " + S.getSpeed() + "\nThe Birthdate is " + S.getBirthdate() + "\nThe age is "+S.getAge(S.getBirthdate())+"\nThe Price is "+ S.getPrice() + "\nthe size is " +S.getSize());
+                System.out.println("The Color is " + S.getColor()+"\nThe Type is " + S.getType()+"\nThe Speed is " + S.getSpeed() + "\nThe Birthdate is " + S.getBirthdate()
+                                   + "\nThe age is "+S.getAge(S.getBirthdate())+"\nThe Price is "+ S.getPrice() + "\nthe size is " +S.getSize());
                 
                 break;
             }
             
             case 3 :
             {
-                System.out.println("The Color is " + T.getColor() + "\nThe Birthdate is " +"\nThe Type is " + T.getType()+"\nThe Speed is " + T.getSpeed()+ T.getBirthdate() + "\nThe age is "+T.getAge(T.getBirthdate())+"\nThe Price is "+ T.getPrice() + "\nthe size is " +T.getWheel());
+                System.out.println("The Color is " + T.getColor() + "\nThe Birthdate is " +"\nThe Type is " + T.getType()+"\nThe Speed is " + T.getSpeed()+ T.getBirthdate() 
+                                   + "\nThe age is "+T.getAge(T.getBirthdate())+"\nThe Price is "+ T.getPrice() + "\nthe size is " +T.getWheel());
                 
                 break;
             }
             
             case 4 :
             {
-                System.out.println("The Color is " + B.getColor() + "\nThe Type is " + B.getType()+"\nThe Speed is " + B.getSpeed()+"\nThe Birthdate is " + B.getBirthdate() + "\nThe age is "+B.getAge(T.getBirthdate())+"\nThe Price is "+ B.getPrice() + "\nthe size is " +B.getSize());
+                System.out.println("The Color is " + B.getColor() + "\nThe Type is " + B.getType()+"\nThe Speed is " + B.getSpeed()+"\nThe Birthdate is " + B.getBirthdate() 
+                                   + "\nThe age is "+B.getAge(T.getBirthdate())+"\nThe Price is "+ B.getPrice() + "\nthe size is " +B.getSize());
                 
                 break;
             }
